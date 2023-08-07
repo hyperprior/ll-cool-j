@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ll-cool-j"
+version = "0.1.0"
+description = "Large Language Models for Exploratory Data Analysis"
+authors = ["chrisaddy"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ll_cool_j"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.254"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
